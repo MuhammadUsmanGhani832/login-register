@@ -61,7 +61,7 @@ const Home = () => {
 
             <div className={styles.footer}>
                 {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                <p>The source code is available on <a href='#'>GitHub</a> for review.</p>
+                <p>The source code is available on <Link to='https://github.com/MuhammadUsmanGhani832/login-register'>GitHub</Link> for review.</p>
             </div>
         </div>
     )
