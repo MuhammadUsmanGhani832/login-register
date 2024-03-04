@@ -1,0 +1,94 @@
+.loginStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+.imageDiv{
+    height: 100%;
+    width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.loginForm{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 500px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.loginForm h1{
+    margin-bottom: 20px;
+}
+.loginForm >p{
+    margin-bottom: 60px;
+}
+.loginForm form{
+    width: 100%;
+}
+.loginForm form label{
+      font-size: 16px;
+      font-weight: bold;
+      text-align: start;
+      width: 100%;
+      display: block;
+      margin: 5px 0;
+}
+
+.loginForm form input{
+    width: 100%;
+    border-radius: 40px;
+    height: 32px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+} 
+
+.loginForm form button{
+    width: 100%;
+    border-radius: 40px;
+    height: 32px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #3A5B22;
+    color: white;
+
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.loginForm form button:disabled{
+    background-color: #74be3f;
+    color: rgb(129, 111, 111);
+ cursor: not-allowed! important;;
+}
+
+.loginForm span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.loginForm span button{
+    color:blue;
+background-color: transparent;
+outline: none;
+border: none;
+cursor: pointer;
+}
+
+
+.errorMessage{
+    font-size: 10px;
+    color:red;
+    margin-bottom: -6px;
+  }
