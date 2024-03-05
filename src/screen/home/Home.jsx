@@ -35,7 +35,7 @@ const Home = () => {
                 <div className='functionality'>
                     <h2>2) Functionality</h2>
                     <ul>
-                        <li>I've created this app to demonstrate user authentication in React using useContext hook and custom hooks (useLoginHook and useSignupHook), along with localStorage for storing authenticated users and registered users for the login system.</li>
+                        <li>I have created this app to demonstrate user authentication in React using useContext hook and custom hooks (useLoginHook and useSignupHook), along with localStorage for storing authenticated users and registered users for the login system.</li>
                         <li>Logged-in users can access the detail page.</li>
                     </ul>
                 </div>
@@ -46,14 +46,14 @@ const Home = () => {
                         <li>Formik is a React library that simplifies form management by handling form state, validation, and submission.
                             It automatically handles onChange, onBlur, and value assignment for you.</li>
                         <li>Formik seamlessly integrates with Yup, a schema validation library, allowing you to define complex validation rules using a schema object.</li>
-                        <li>I've integrated the react-hot-toast library for displaying input errors, login errors, and successful login messages to users.</li>
+                        <li>I have integrated the react-hot-toast library for displaying input errors, login errors, and successful login messages to users.</li>
                     </ul>
                 </div>
                 <div className='functionality'>
                     <h2>4) Hooks</h2>
                     <ul>
-                        <li>I've employed the useContext and useState hooks throughout this app for managing state and context.</li>
-                        <li>I've utilized Formik for managing form state in this application.</li>
+                        <li>I have employed the useContext and useState hooks throughout this app for managing state and context.</li>
+                        <li>I have utilized Formik for managing form state in this application.</li>
                         <li>The source code is available on GitHub for review.</li>
                     </ul>
                 </div>
